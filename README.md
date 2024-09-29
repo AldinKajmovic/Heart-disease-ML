@@ -1,36 +1,36 @@
-# Predikcija srčanog udara
+# Heart disease prediction
 
-Ovaj projekat ima za cilj da koristi dataset sa informacijama o osobama kako bi predvidio da li je osoba sklona srčanom udaru ili ne. 
+This project aims to use a dataset containing information about individuals to predict whether a person is prone to a heart attack or not.
 
 ## Dataset
 
-Dataset sadrži sledeće kolone:
+The dataset contains the following columns:
 
-- **id**: Unikatni identifikator osobe (int).
-- **gender**: Spol osobe (string).
-- **age**: Broj godina osobe (int).
-- **hypertension**: Da li osoba ima hipertenziju (0 ako nema, 1 ako ima; bool).
-- **heart_disease**: Da li osoba ima oboljenje srca (0 ako nema, 1 ako ima; bool).
-- **ever_married**: Da li je osoba ikada bila u braku (string).
-- **work_type**: Način zapošljenja (string).
-- **residence_type**: Mejsto življenja (string).
-- **avg_glucose_level**: Prosječna količina glukoze u krvi (float).
-- **bmi**: BMI index osobe (float).
-- **smoking_status**: Da li osoba konzumira cigarete (string).
-- **stroke**: Da li je osoba sklona srčanom udaru (1 ako jeste, 0 ako nije; bool). Ovo je ciljna vrijednost koju model treba da predviđa.
+- **id**: Unique identifier for the individual (int).
+- **gender**:  Gender of the individual (string).
+- **age**: Age of the individual (int).
+- **hypertension**: Whether the individual has hypertension (0 if no, 1 if yes; bool).
+- **heart_disease**: Whether the individual has heart disease (0 if no, 1 if yes; bool).
+- **ever_married**: Whether the individual has ever been married (string).
+- **work_type**: Type of employment (string).
+- **residence_type**: Type of residence (string).
+- **avg_glucose_level**: Average blood glucose level (float).
+- **bmi**: BMI index of the individual (float).
+- **smoking_status**: Whether the individual smokes (string).
+- **stroke**: Whether the individual is prone to a heart attack (1 if yes, 0 if no; bool). This is the target variable that the model needs to predict.
 
-## Metode
+## Algorithms
 
-U ovom projektu su korišćene različite metode za treniranje modela:
+In this project, various algorithms were used for training the model:
 
 - **SVM (Support Vector Machines)**
-- **Neuronske mreže**
+- **Neural networks**
 
-## Instalacija
+## Installation
 
 
-1. **Klonirajte repozitorijum**:
+1. **Clone repo**:
    ```bash
    git clone https://github.com/AldinKajmovic/heart_disease_ml.git
-2. **Otvorite Google Collab ili Code Editor**
+2. **Open Google Collab or Code Editor**
    
